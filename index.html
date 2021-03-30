@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Audio Curation</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  <body>
+    <h1>My Record Collection</h1>
+    <h2>Add To The Collection</h2>
+    <form>
+      <div class="formbox">
+        <label for="titleInput">Album Title:</label>
+        <input type="text" id="titleInput" name="titleInput" />
+      </div>
+      <div class="formbox">
+        <label for="artistInput">Artist:</label>
+        <input type="text" id="artistInput" name="artistInput" />
+      </div>
+      <div class="formbox">
+        <label for="releaseInput">Release Year: </label>
+        <input type="text" id="releaseInput" name="releaseInput" />
+      </div>
+      <div class="formbox">
+        <label for="genreInput">Genre:</label>
+        <input type="text" id="genreInput" name="genreInput" />
+      </div>
+      <input type="submit" id="submit" value="Add Record" />
+    </form>
+    <pre id="msg"></pre>
+    <script src="js/app.js"></script>
+  </body>
+</html>
